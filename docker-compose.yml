@@ -1,0 +1,13 @@
+version: "3"
+services:
+  node:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: node-express
+    working_dir: /home/node/app
+    ports:
+      - 8080:8080
+    volumes:
+      - ./app:/home/node/app:cached
+    restart: always

@@ -1,0 +1,7 @@
+{
+  "name": "sanek",
+  "version": "0.0.1",
+  "description": "ssr",
+  "main": "server.js",
+  "license": "MIT"
+}
